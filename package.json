@@ -1,7 +1,7 @@
 {
   "name": "jesttest",
   "version": "0.1.0",
-  "homepage": "https://tusharnalawade11.github.io/book-store",
+  "homepage": "https://tusharnalawade11.github.io/Book-store",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
