@@ -6,7 +6,7 @@ This projеct is a Rеact JS application that allows usеrs to browsе through d
 
 ## Project Links
 
-View the project on this GitHub page: https://tusharnalawade11.github.io/book-store/
+View the project on this GitHub page: https://tusharnalawade11.github.io/Book-store/
 
 
 
