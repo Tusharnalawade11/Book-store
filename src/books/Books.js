@@ -23,9 +23,9 @@ export default function Books({ books }) {
               <div id={`bookName${book.id}`} className='bookName'>{book.name}</div>
               <div className='bookImageDesc'>
                 <img id={`bookImage${book.id}`} className='bookImage' src={book.src} alt='book' />
-                <div id={`bookDesc${book.id}`} className='bookDesc'>{book.description}</div>
+                <div id={`bookAuthor${book.id}`} className='bookAuthor'>{book.author}</div> 
               </div>
-              <div id={`bookAuthor${book.id}`} className='bookAuthor'>{book.author}</div> 
+                <div id={`bookDesc${book.id}`} className='bookDesc'>{book.description}</div>
             </div>
           ))
         }

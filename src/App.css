@@ -1,4 +1,13 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap');
+
+:root {
+  --font-montserrat : 'Montserrat', sans-serif;
+  --font-barlow: 'Barlow', sans-serif
+}
+
+body {
+  font-family: var(--font-montserrat);
   text-align: center;
 }
 
@@ -92,24 +101,26 @@
 .catHeading{
   font-size: 35px;
   color: rgb(63, 70, 66);
-  font-weight: 700;
+  font-family: var(--font-barlow);
   padding: 5px;
+  text-align: center;
+  margin: 0;
 }
 
 .bookHeading{
   font-size: 35px;
   color: rgb(63, 70, 66);
-  font-weight: 700;
-  text-align: center;
+  font-family: var(--font-barlow);
 }
 
 .generalDesc{
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(102, 17, 57);
   padding: 10px;
 }
 
 .categoryCardGroup{
+  margin-top: 20px;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
@@ -119,19 +130,20 @@
 .categoryCard{
   border: 3px solid rgb(5, 183, 253);
   border-collapse: separate;
-  
+  padding: 8px;
 }
 
 .categoryName{
   margin: 10px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 30px;
+  font-family: var(--font-barlow);
   text-decoration: none;
   color: #000;
 }
 
 .categoryDesc{
-  padding: 0px 12px 6px 12px;
+  font-size: 15px;
+  padding:  6px 12px;
   text-align: justify;
   color: #000;
 }
@@ -161,15 +173,18 @@
 .singleBook{
   border: 1px solid rgb(229, 238, 238);
   border-collapse: separate;
-  padding: 5px;
+  padding: 13px;
   background-color:#80808033;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
+  align-items: center;
 }
 
 .bookImageDesc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 /* background-color: grey; */
 }
 
@@ -181,9 +196,10 @@
 }
 
 .bookAuthor{
-  margin-top: 15px;
+  font-weight: 700;
+  margin: 15px;
+  
   font-size: 15px;
-  font-weight: 400;
 }
 
 .bookImage{
@@ -195,9 +211,9 @@
 .bookDesc{
   text-align: justify;
   padding-right: 1%;
-  font-size: 15px;
+  font-size: 13px;
   float: right;
-  width: 80%;
+  width: 90%;
 }
 
 .aboutBookImage{
